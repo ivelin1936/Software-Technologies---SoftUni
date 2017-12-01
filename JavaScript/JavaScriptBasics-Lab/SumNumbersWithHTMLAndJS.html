@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sum Two Numbers</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="num1">First Number</label>
+        </div>
+        <div>
+            <input type="number" id="num1">
+        </div>
+        <div>
+            <label for="num2">Second Number</label>
+        </div>
+        <div>
+            <input type="number" id="num2">
+        </div>
+        <div>
+            <input type="button" onclick="sumNumbers()" value="Calculate">
+        </div>
+        <div>
+            Result: <span id="result" style="color: red"></span>
+        </div>
+    </form>
+    <script>
+        function sumNumbers() {
+            let num1 = document.getElementById('num1').value;
+            let num2 = document.getElementById('num2').value;
+
+            let sum = Number(num1) + Number(num2);
+
+            document.getElementById('result').innerHTML = sum;
+        }
+    </script>
+</body>
+</html>
