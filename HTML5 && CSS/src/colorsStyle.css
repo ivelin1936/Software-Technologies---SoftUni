@@ -1,0 +1,17 @@
+div {
+    background: gray;
+    border: solid 3px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 6%;
+}
+.red {
+    border-color: red;
+}
+.blue {
+    border-color: blue;
+}
+.green {
+    border-color: green;
+}

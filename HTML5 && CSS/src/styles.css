@@ -1,0 +1,15 @@
+.special {
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+}
+#content {
+    background: #EEE;
+}
+p {
+    font-size: 24pt;
+}
+li {
+    margin: 2px;
+    padding: 2px;
+}
