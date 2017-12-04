@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Create Page</title>
+</head>
+<body>
+    <h1 th:text="|Hello, ${username}|"></h1>
+    <span th:text="${user.firstName}"></span>
+    <span th:text="${user.lastName}"></span>
+    <span th:text="${user.age}"></span>
+    <br/>
+    <div>
+    <a href="/allUsers">Back</a>
+    </div>
+    <div>
+        <a th:href="@{/update(id=${user.id})}">
+            <span>Update</span>
+        </a>
+    </div>
+</body>
+</html>

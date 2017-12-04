@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Home Page</title>
+</head>
+<body>
+    <h1 th:text="|Hello, ${username}|"></h1>
+    <div>
+        <a href="/create">Create new User</a>
+    </div>
+    <div>
+        <a href="/allUsers">Show All Users</a>
+    </div>
+</body>
+</html>
