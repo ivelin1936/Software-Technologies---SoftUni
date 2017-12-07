@@ -1,0 +1,14 @@
+<h1>Article list</h1>
+
+<table>
+    <tr>
+        <th style="border: solid">Title</th>
+        <th style="border: solid">Content</th>
+        <th style="border: solid">Author</th>
+    </tr>
+    <tr th:each="a : ${articles}">
+        <td th:text="${a.title}" style="border: solid"></td>
+        <td th:text="${a.content}" style="border: solid"></td>
+        <td th:text="${a.author.email}" style="border: solid"></td>
+    </tr>
+</table>
