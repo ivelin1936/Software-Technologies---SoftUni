@@ -22,6 +22,7 @@ public class Article {
     private String content;
 
     @ManyToOne(optional = false)
+    @JoinColumn(nullable = false, name = "authorId")
     private User author;
 
     public Article() {

@@ -14,18 +14,21 @@ import softuniBlog.entity.Article;
 import softuniBlog.entity.User;
 import softuniBlog.repository.ArticleRepository;
 import softuniBlog.repository.UserRepository;
-import sun.plugin.liveconnect.SecurityContextHelper;
 
 import java.util.List;
 
 @Controller
 public class ArticleController {
 
-    @Autowired
-    private ArticleRepository articleRepo;
+    private final ArticleRepository articleRepo;
+
+    private final UserRepository userRepo;
 
     @Autowired
-    private UserRepository userRepo;
+    public ArticleController(ArticleRepository articleRepo, UserRepository userRepo) {
+        this.articleRepo = articleRepo;
+        this.userRepo = userRepo;
+    }
 
     @GetMapping("/articles/list")
     public String listArticles(Model model) {
@@ -60,7 +63,7 @@ public class ArticleController {
     public String create(Model model, ArticleBindingModel articleFormData) {
 
         try {
-            UserDetails userDetails = (UserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+            UserDetails userDetails = (UserDetails)SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 
             User user = userRepo.findByEmail(userDetails.getUsername());
 

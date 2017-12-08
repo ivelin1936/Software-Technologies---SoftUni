@@ -25,10 +25,14 @@ import javax.servlet.http.HttpServletResponse;
 @Controller
 public class UserController {
 
+    private final RoleRepository roleRepository;
+    private final UserRepository userRepository;
+
     @Autowired
-    RoleRepository roleRepository;
-    @Autowired
-    UserRepository userRepository;
+    public UserController(RoleRepository roleRepository, UserRepository userRepository) {
+        this.roleRepository = roleRepository;
+        this.userRepository = userRepository;
+    }
 
     @GetMapping("/register")
     public String register(Model model) {

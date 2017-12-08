@@ -10,6 +10,14 @@ public class ArticleBindingModel {
     @NotNull
     private String content;
 
+    public ArticleBindingModel(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
+
+    public ArticleBindingModel() {
+    }
+
     public String getTitle() {
         return title;
     }

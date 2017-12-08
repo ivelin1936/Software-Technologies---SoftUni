@@ -12,8 +12,12 @@ import java.util.List;
 @Controller
 public class HomeController {
 
+    private final ArticleRepository articleRepo;
+
     @Autowired
-    private ArticleRepository articleRepo;
+    public HomeController(ArticleRepository articleRepo) {
+        this.articleRepo = articleRepo;
+    }
 
     @GetMapping("/")
     public String index(Model model) {
