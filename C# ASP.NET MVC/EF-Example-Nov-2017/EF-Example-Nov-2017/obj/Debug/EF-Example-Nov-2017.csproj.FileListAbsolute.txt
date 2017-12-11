@@ -1,0 +1,11 @@
+C:\Users\Admin\source\repos\EF-Example-Nov-2017\EF-Example-Nov-2017\bin\Debug\EF-Example-Nov-2017.exe.config
+C:\Users\Admin\source\repos\EF-Example-Nov-2017\EF-Example-Nov-2017\bin\Debug\EF-Example-Nov-2017.exe
+C:\Users\Admin\source\repos\EF-Example-Nov-2017\EF-Example-Nov-2017\bin\Debug\EF-Example-Nov-2017.pdb
+C:\Users\Admin\source\repos\EF-Example-Nov-2017\EF-Example-Nov-2017\obj\Debug\EF-Example-Nov-2017.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\EF-Example-Nov-2017\EF-Example-Nov-2017\obj\Debug\EF-Example-Nov-2017.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\EF-Example-Nov-2017\EF-Example-Nov-2017\obj\Debug\EF-Example-Nov-2017.exe
+C:\Users\Admin\source\repos\EF-Example-Nov-2017\EF-Example-Nov-2017\obj\Debug\EF-Example-Nov-2017.pdb
+C:\Users\Admin\source\repos\EF-Example-Nov-2017\EF-Example-Nov-2017\bin\Debug\EntityFramework.dll
+C:\Users\Admin\source\repos\EF-Example-Nov-2017\EF-Example-Nov-2017\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\repos\EF-Example-Nov-2017\EF-Example-Nov-2017\bin\Debug\EntityFramework.xml
+C:\Users\Admin\source\repos\EF-Example-Nov-2017\EF-Example-Nov-2017\bin\Debug\EntityFramework.SqlServer.xml
