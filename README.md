@@ -1,4 +1,4 @@
-# Software-Technologies---SoftUni
+# Software-Technologies
 ```
 HTML5, CSS, JavaScript, PHP,Java, C# --> Basic &amp; Web 
 ```
